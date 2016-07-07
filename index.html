@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">   
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="text/style.css">
+    </head>
+<body>
+    <div>
+        <h1>UGI Utilities Inc.</h1>
+    </div>
+    <div>
+        <h2>Access Request Form</h2>
+    </div>
+    <div>
+        <h3>Employee Type</h3>
+    </div>
+    <div>
+        <ul class="tabs">
+            <li>
+                <input type="radio" name="tabs" id="current" checked>
+                <label for="current">Current</label>
+                <div class="tab-content">
+                    <form id="name" class="form-inline">
+                        <div class="form-group">
+                            <label for="firstname">Employee's Name:</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="First">
+                            <input type="text" class="form-control" id="middle" placeholder="middle">
+                            <input type="text" class="form-control" id="lastname" placeholder="Last">
+                        </div>
+                        <div class="form-group">
+                            <label for="id">Employee Number</label>
+                            <input type="text" class="form-control" id="id" placeholder="######">
+                            <label id="deplab" for="department">Department:</label>
+                            <select id="depart" name="department">
+                                <option value="bng">Buildings and Grounds</option>
+                                <option value="business">Business Support Services</option>
+                                <option value="facilities">Facilities Systems</option>
+                                <option value="finance">Finance</option>
+                                <option value="fleet">Fleet</option>
+                                <option value="Information Technology">Information Technoloy</option>
+                                <option value="marketing">Marketing</option>
+                                <option value="operations">Operations</option>
+                                <option value="purchasing">Purchasing</option>
+                                <option value="stores">Stores and Inventory</option>
+                                <option value="training">Training and Compliance</option>
+                                <option value="1">UGI-1</option>
+                                <option value="unite">Unite</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="add">Additional Software Required:</label>
+                            <select id="add" class="form-control" multiple="multiple">
+                                <option value="1">None</option>
+                                <option value="2">None</option>
+                                <option value="1">None</option>
+                                <option value="1">None</option>
+                                
+                            
+                            </select>
+                            
+                        </div>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" id="new">
+                <label for="new">New</label>
+                <div class="tab-content">
+                    <form id="name" class="form-inline">
+                        <div class="form-group">
+                            <label for="firstname">Employee's Name:</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="First">
+                            <input type="text" class="form-control" id="middle" placeholder="middle">
+                            <input type="text" class="form-control" id="lastname" placeholder="Last">
+                        </div>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" id="contractor">
+                <label for="contractor">Contractor</label>
+                <div class="tab-content">
+                    <form id="name" class="form-inline">
+                        <div class="form-group">
+                            <label for="firstname">Employee's Name:</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="First">
+                            <input type="text" class="form-control" id="middle" placeholder="middle">
+                            <input type="text" class="form-control" id="lastname" placeholder="Last">
+                        </div>
+                    </form>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="tabs" id="temp">
+                <label for="temp">Temp</label>
+                <div class="tab-content">
+                    <form id="name" class="form-inline">
+                        <div class="form-group">
+                            <label for="firstname">Employee's Name:</label>
+                            <input type="text" class="form-control" id="firstname" placeholder="First">
+                            <input type="text" class="form-control" id="middle" placeholder="middle">
+                            <input type="text" class="form-control" id="lastname" placeholder="Last">
+                        </div>
+                    </form>
+                </div>
+            </li>
+        </ul>
+    </div>    
+</body>
